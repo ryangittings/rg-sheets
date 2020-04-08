@@ -13,9 +13,6 @@ class RGSheets_Import {
   function import() {
     $client = $this->getClient();
     $service = new Google_Service_Sheets($client);
-
-    // Prints the names and majors of students in a sample spreadsheet:
-    // https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
     $response = $service->spreadsheets_values->get($this->spreadsheetId, $this->spreadsheetRange);
     $values = $response->getValues();
 
