@@ -7,9 +7,9 @@ This app will allow you to import data from a Google sheet, into a specified Per
 To get this app up and running, it requires a few steps:
 
 - Install this app folder into `your_perch_folder/addons/apps/`
+- `cd` into `rg_sheets` folder in the terminal (or if you're in VS Code, right-click the folder and Open in Terminal)
 - Run `composer install`
 - Generate a `credentials.json` by following the Step 1 of the instructions [here](https://developers.google.com/sheets/api/quickstart/php). Add the `credentials.json` file inside the newly created app folder, `rg_sheets`
-- `cd` into `rg_sheets` folder in the terminal (or if you're in VS Code, right-click the folder and Open in Terminal)
 - Run `php create_token.php` and follow the instructions in the terminal to generate a `token.json` file to allow authentication
 - You should be good to go! 
 
