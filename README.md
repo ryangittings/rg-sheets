@@ -12,7 +12,7 @@ To get this app up and running, it requires a few steps:
 - Run `php create_token.php` and follow the instructions in the terminal to generate a `token.json` file to allow authentication
 - You should be good to go! 
 
-## Options
+### Options
 
 The magic happens in `RGSheets_Import.class.php` file. In here, you can edit two main variables:
 
